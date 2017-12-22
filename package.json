@@ -1,0 +1,8 @@
+{
+  "name": "ur-state-receiver",
+  "version": "1.0.0",
+  "description": "Receiving Universal Robot data from socket",
+  "main": "index.js",
+  "author": "BARK",
+  "license": "MIT"
+}
