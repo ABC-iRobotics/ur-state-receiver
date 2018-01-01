@@ -4,5 +4,8 @@
   "description": "Receiving Universal Robot data from socket",
   "main": "index.js",
   "author": "BARK",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ieee754": "^1.1.8"
+  }
 }
