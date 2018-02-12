@@ -1,3 +1,5 @@
+'use strict'
+
 const EventEmitter = require('events')
 const ieee754 = require('ieee754')
 const net = require('net')
