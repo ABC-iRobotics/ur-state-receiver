@@ -18,7 +18,8 @@ THE SOFTWARE IS DISTRIBUTED IN THE HOPE THAT IT WILL BE USEFUL, BUT WITHOUT ANY 
 Install Node.js.
 
 ## Installation
-Clone the repository.
+- Clone the repository.
+- Run npm -i in the cloned reposítory folder
 
 ## Example usage
 https://github.com/ABC-iRobotics/ur-webmonitor
