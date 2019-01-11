@@ -37,10 +37,6 @@ class URState extends EventEmitter {
     this.client.on('data', () => {
       this.emit('data', currentState)
     })
-    this.client.on('connec', () => {
-      console.log('oneconnection')
-      this.emit('connect')
-    })
     this.client.on('error', exception => {
       console.log('exception: ', exception)
       this.emit('exception', exception)
