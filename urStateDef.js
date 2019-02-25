@@ -116,5 +116,11 @@ module.exports = {
   actJ5V: {start: 1028, length: 8, description: 'Actual joint 5 voltage'},
   actJ6V: {start: 1036, length: 8, description: 'Actual joint 6 voltage'},
   digOutput: {start: 1044, length: 8, description: 'Digital outputs'},
-  progState: {start: 1052, length: 8, description: 'Program state'}
+  progState: {start: 1052, length: 8, description: 'Program state'},
+  elbowPositionX: {start: 1060, length: 8, description: 'Elbow position: x'},
+  elbowPositionY: {start: 1068, length: 8, description: 'Elbow position: y'},
+  elbowPositionZ: {start: 1076, length: 8, description: 'Elbow position: z'},
+  elbowVelocityX: {start: 1084, length: 8, description: 'Elbow velocity: x'},
+  elbowVelocityY: {start: 1092, length: 8, description: 'Elbow velocity: y'},
+  elbowVelocityZ: {start: 1100, length: 8, description: 'Elbow velocity: z'}
 }
