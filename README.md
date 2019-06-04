@@ -2,7 +2,7 @@
 
 ## Overview
 Simple Node.js modul to receive data from Universal Robots.
-This version is compatible with controller version 3.4
+This version is compatible with controller version 3.8
 
 **NOTE**: It is an experimental software. Do not use this in production systems!
 
@@ -19,7 +19,7 @@ Install Node.js.
 
 ## Installation
 - Clone the repository.
-- Run npm -i in the cloned reposítory folder
+- Run npm -i in the cloned repository folder
 
 ## Example usage
 https://github.com/ABC-iRobotics/ur-webmonitor
