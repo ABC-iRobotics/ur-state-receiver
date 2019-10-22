@@ -1,0 +1,1012 @@
+{
+  "states": [
+    {
+      "description": "Total message length in bytes",
+      "length": "4",
+      "radian": "False",
+      "start": "0",
+      "valuetype": "!i",
+      "visible": "False"
+    },
+    {
+      "description": "Time elapsed since the controller was started",
+      "length": "8",
+      "radian": "False",
+      "start": "4",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 1 positions",
+      "length": "8",
+      "radian": "False",
+      "start": "12",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 2 positions",
+      "length": "8",
+      "radian": "False",
+      "start": "20",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 3 positions",
+      "length": "8",
+      "radian": "False",
+      "start": "28",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 4 positions",
+      "length": "8",
+      "radian": "False",
+      "start": "36",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 5 positions",
+      "length": "8",
+      "radian": "False",
+      "start": "44",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 6 positions",
+      "length": "8",
+      "radian": "False",
+      "start": "52",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 1 velocities",
+      "length": "8",
+      "radian": "False",
+      "start": "60",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 2 velocities",
+      "length": "8",
+      "radian": "False",
+      "start": "68",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 3 velocities",
+      "length": "8",
+      "radian": "False",
+      "start": "76",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 4 velocities",
+      "length": "8",
+      "radian": "False",
+      "start": "84",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 5 velocities",
+      "length": "8",
+      "radian": "False",
+      "start": "92",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 6 velocities",
+      "length": "8",
+      "radian": "False",
+      "start": "100",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 1 accelerations",
+      "length": "8",
+      "radian": "False",
+      "start": "108",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 2 accelerations",
+      "length": "8",
+      "radian": "False",
+      "start": "116",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 3 accelerations",
+      "length": "8",
+      "radian": "False",
+      "start": "124",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 4 accelerations",
+      "length": "8",
+      "radian": "False",
+      "start": "132",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 5 accelerations",
+      "length": "8",
+      "radian": "False",
+      "start": "140",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 6 accelerations",
+      "length": "8",
+      "radian": "False",
+      "start": "148",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 1 currents",
+      "length": "8",
+      "radian": "False",
+      "start": "156",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 2 currents",
+      "length": "8",
+      "radian": "False",
+      "start": "164",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 3 currents",
+      "length": "8",
+      "radian": "False",
+      "start": "172",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 4 currents",
+      "length": "8",
+      "radian": "False",
+      "start": "180",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 5 currents",
+      "length": "8",
+      "radian": "False",
+      "start": "188",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 6 currents",
+      "length": "8",
+      "radian": "False",
+      "start": "196",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 1 moments (torques)",
+      "length": "8",
+      "radian": "False",
+      "start": "204",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 2 moments (torques)",
+      "length": "8",
+      "radian": "False",
+      "start": "212",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 3 moments (torques)",
+      "length": "8",
+      "radian": "False",
+      "start": "220",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 4 moments (torques)",
+      "length": "8",
+      "radian": "False",
+      "start": "228",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 5 moments (torques)",
+      "length": "8",
+      "radian": "False",
+      "start": "236",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target joint 6 moments (torques)",
+      "length": "8",
+      "radian": "False",
+      "start": "244",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 1 positions",
+      "length": "8",
+      "radian": "True",
+      "start": "252",
+      "valuetype": "!d",
+      "visible": "True"
+    },
+    {
+      "description": "Actual joint 2 positions",
+      "length": "8",
+      "radian": "True",
+      "start": "260",
+      "valuetype": "!d",
+      "visible": "True"
+    },
+    {
+      "description": "Actual joint 3 positions",
+      "length": "8",
+      "radian": "True",
+      "start": "268",
+      "valuetype": "!d",
+      "visible": "True"
+    },
+    {
+      "description": "Actual joint 4 positions",
+      "length": "8",
+      "radian": "True",
+      "start": "276",
+      "valuetype": "!d",
+      "visible": "True"
+    },
+    {
+      "description": "Actual joint 5 positions",
+      "length": "8",
+      "radian": "True",
+      "start": "284",
+      "valuetype": "!d",
+      "visible": "True"
+    },
+    {
+      "description": "Actual joint 6 positions",
+      "length": "8",
+      "radian": "True",
+      "start": "292",
+      "valuetype": "!d",
+      "visible": "True"
+    },
+    {
+      "description": "Actual joint 1 velocities",
+      "length": "8",
+      "radian": "False",
+      "start": "300",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 2 velocities",
+      "length": "8",
+      "radian": "False",
+      "start": "308",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 3 velocities",
+      "length": "8",
+      "radian": "False",
+      "start": "316",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 4 velocities",
+      "length": "8",
+      "radian": "False",
+      "start": "324",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 5 velocities",
+      "length": "8",
+      "radian": "False",
+      "start": "332",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 6 velocities",
+      "length": "8",
+      "radian": "False",
+      "start": "340",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 1 currents",
+      "length": "8",
+      "radian": "False",
+      "start": "348",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 2 currents",
+      "length": "8",
+      "radian": "False",
+      "start": "356",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 3 currents",
+      "length": "8",
+      "radian": "False",
+      "start": "364",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 4 currents",
+      "length": "8",
+      "radian": "False",
+      "start": "372",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 5 currents",
+      "length": "8",
+      "radian": "False",
+      "start": "380",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 6 currents",
+      "length": "8",
+      "radian": "False",
+      "start": "388",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Joint 1 control currents",
+      "length": "8",
+      "radian": "False",
+      "start": "396",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Joint 2 control currents",
+      "length": "8",
+      "radian": "False",
+      "start": "404",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Joint 3 control currents",
+      "length": "8",
+      "radian": "False",
+      "start": "412",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Joint 4 control currents",
+      "length": "8",
+      "radian": "False",
+      "start": "420",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Joint 5 control currents",
+      "length": "8",
+      "radian": "False",
+      "start": "428",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Joint 6 control currents",
+      "length": "8",
+      "radian": "False",
+      "start": "436",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual Cartesian coordinates: x",
+      "length": "8",
+      "radian": "False",
+      "start": "444",
+      "valuetype": "!d",
+      "visible": "True"
+    },
+    {
+      "description": "Actual Cartesian coordinates: y",
+      "length": "8",
+      "radian": "False",
+      "start": "452",
+      "valuetype": "!d",
+      "visible": "True"
+    },
+    {
+      "description": "Actual Cartesian coordinates: z",
+      "length": "8",
+      "radian": "False",
+      "start": "460",
+      "valuetype": "!d",
+      "visible": "True"
+    },
+    {
+      "description": "Actual Cartesian coordinates: rx",
+      "length": "8",
+      "radian": "False",
+      "start": "468",
+      "valuetype": "!d",
+      "visible": "True"
+    },
+    {
+      "description": "Actual Cartesian coordinates: ry",
+      "length": "8",
+      "radian": "False",
+      "start": "476",
+      "valuetype": "!d",
+      "visible": "True"
+    },
+    {
+      "description": "Actual Cartesian coordinates: rz",
+      "length": "8",
+      "radian": "False",
+      "start": "484",
+      "valuetype": "!d",
+      "visible": "True"
+    },
+    {
+      "description": "Actual speed of the tool given in Cartesian coordinate: x",
+      "length": "8",
+      "radian": "False",
+      "start": "492",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual speed of the tool given in Cartesian coordinate: y",
+      "length": "8",
+      "radian": "False",
+      "start": "500",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual speed of the tool given in Cartesian coordinate: z",
+      "length": "8",
+      "radian": "False",
+      "start": "508",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual speed of the tool given in Cartesian coordinate: rx",
+      "length": "8",
+      "radian": "False",
+      "start": "516",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual speed of the tool given in Cartesian coordinate: ry",
+      "length": "8",
+      "radian": "False",
+      "start": "524",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual speed of the tool given in Cartesian coordinate: rz",
+      "length": "8",
+      "radian": "False",
+      "start": "532",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Generalised forces in the TCP: x",
+      "length": "8",
+      "radian": "False",
+      "start": "540",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Generalised forces in the TCP: y",
+      "length": "8",
+      "radian": "False",
+      "start": "548",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Generalised forces in the TCP: z",
+      "length": "8",
+      "radian": "False",
+      "start": "556",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Generalised forces in the TCP: rx",
+      "length": "8",
+      "radian": "False",
+      "start": "564",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Generalised forces in the TCP: ry",
+      "length": "8",
+      "radian": "False",
+      "start": "572",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Generalised forces in the TCP: rz",
+      "length": "8",
+      "radian": "False",
+      "start": "580",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target Cartesian coordinates of the tool: x",
+      "length": "8",
+      "radian": "False",
+      "start": "588",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target Cartesian coordinates of the tool: y",
+      "length": "8",
+      "radian": "False",
+      "start": "596",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target Cartesian coordinates of the tool: z",
+      "length": "8",
+      "radian": "False",
+      "start": "604",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target Cartesian coordinates of the tool: rx",
+      "length": "8",
+      "radian": "False",
+      "start": "612",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target Cartesian coordinates of the tool: ry",
+      "length": "8",
+      "radian": "False",
+      "start": "620",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target Cartesian coordinates of the tool: rz",
+      "length": "8",
+      "radian": "False",
+      "start": "628",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target speed of the tool given in Cartesian coordinates: x",
+      "length": "8",
+      "radian": "False",
+      "start": "636",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target speed of the tool given in Cartesian coordinates: y",
+      "length": "8",
+      "radian": "False",
+      "start": "644",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target speed of the tool given in Cartesian coordinates: z",
+      "length": "8",
+      "radian": "False",
+      "start": "652",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target speed of the tool given in Cartesian coordinates: rx",
+      "length": "8",
+      "radian": "False",
+      "start": "660",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target speed of the tool given in Cartesian coordinates: ry",
+      "length": "8",
+      "radian": "False",
+      "start": "668",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Target speed of the tool given in Cartesian coordinates: rz",
+      "length": "8",
+      "radian": "False",
+      "start": "676",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Current state of the digital inputs",
+      "length": "8",
+      "radian": "False",
+      "start": "684",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Temperature of 1 joint in degrees celsius",
+      "length": "8",
+      "radian": "False",
+      "start": "692",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Temperature of 2 joint in degrees celsius",
+      "length": "8",
+      "radian": "False",
+      "start": "700",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Temperature of 3 joint in degrees celsius",
+      "length": "8",
+      "radian": "False",
+      "start": "708",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Temperature of 4 joint in degrees celsius",
+      "length": "8",
+      "radian": "False",
+      "start": "716",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Temperature of 5 joint in degrees celsius",
+      "length": "8",
+      "radian": "False",
+      "start": "724",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Temperature of 6 joint in degrees celsius",
+      "length": "8",
+      "radian": "False",
+      "start": "732",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Controller realtime thread execution time",
+      "length": "8",
+      "radian": "False",
+      "start": "740",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "A value used by Universal Robots software only",
+      "length": "8",
+      "radian": "False",
+      "start": "748",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Robot mode",
+      "length": "8",
+      "radian": "False",
+      "start": "756",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Joint 1 control modes",
+      "length": "8",
+      "radian": "False",
+      "start": "764",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Joint 2 control modes",
+      "length": "8",
+      "radian": "False",
+      "start": "772",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Joint 3 control modes",
+      "length": "8",
+      "radian": "False",
+      "start": "780",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Joint 4 control modes",
+      "length": "8",
+      "radian": "False",
+      "start": "788",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Joint 5 control modes",
+      "length": "8",
+      "radian": "False",
+      "start": "796",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Joint 6 control modes",
+      "length": "8",
+      "radian": "False",
+      "start": "804",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Safety mode",
+      "length": "8",
+      "radian": "False",
+      "start": "812",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Tool x accelerometer values (software version 1.7)",
+      "length": "8",
+      "radian": "False",
+      "start": "868",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Tool y accelerometer values (software version 1.7)",
+      "length": "8",
+      "radian": "False",
+      "start": "876",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Tool z accelerometer values (software version 1.7)",
+      "length": "8",
+      "radian": "False",
+      "start": "884",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Speed scaling of the trajectory limiter",
+      "length": "8",
+      "radian": "False",
+      "start": "940",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Norm of Cartesian linear momentum",
+      "length": "8",
+      "radian": "False",
+      "start": "948",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Masterboard: Main voltage",
+      "length": "8",
+      "radian": "False",
+      "start": "972",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Masterboard: Robot voltage (48V)",
+      "length": "8",
+      "radian": "False",
+      "start": "980",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Masterboard: Robot current",
+      "length": "8",
+      "radian": "False",
+      "start": "988",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 1 voltages",
+      "length": "8",
+      "radian": "False",
+      "start": "996",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 2 voltages",
+      "length": "8",
+      "radian": "False",
+      "start": "1004",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 3 voltages",
+      "length": "8",
+      "radian": "False",
+      "start": "1012",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 4 voltages",
+      "length": "8",
+      "radian": "False",
+      "start": "1020",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 5 voltages",
+      "length": "8",
+      "radian": "False",
+      "start": "1028",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Actual joint 6 voltages",
+      "length": "8",
+      "radian": "False",
+      "start": "1036",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Digital outputs",
+      "length": "8",
+      "radian": "False",
+      "start": "1044",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Program state",
+      "length": "8",
+      "radian": "False",
+      "start": "1052",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Elbow position: x",
+      "length": "8",
+      "radian": "False",
+      "start": "1060",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Elbow position: y",
+      "length": "8",
+      "radian": "False",
+      "start": "1068",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Elbow position: z",
+      "length": "8",
+      "radian": "False",
+      "start": "1076",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Elbow velocity: x",
+      "length": "8",
+      "radian": "False",
+      "start": "1084",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Elbow velocity: y",
+      "length": "8",
+      "radian": "False",
+      "start": "1092",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Elbow velocity: z",
+      "length": "8",
+      "radian": "False",
+      "start": "1100",
+      "valuetype": "!d",
+      "visible": "False"
+    },
+    {
+      "description": "Safety status",
+      "length": "8",
+      "radian": "False",
+      "start": "1108",
+      "valuetype": "!d",
+      "visible": "False"
+    }
+  ]
+}
